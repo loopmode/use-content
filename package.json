@@ -1,7 +1,7 @@
 {
   "name": "@loopmode/use-content",
   "description": "React hook for displaying local or external string-based content",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {

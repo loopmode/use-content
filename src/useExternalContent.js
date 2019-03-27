@@ -1,4 +1,5 @@
 import React from 'react';
+import fetchLoader from './fetchLoader';
 
 /**
  * An effect hook that provides external content as a string.
@@ -7,7 +8,7 @@ import React from 'react';
  * @param {Function} loader  A `(url, callback) => abort` function for loading the content
  * @return {String} The external content
  */
-export default function useExternalContent(url, loader) {
+export default function useExternalContent(url, loader = fetchLoader) {
     const [content, setContent] = React.useState('');
 
     if (typeof loader === 'function') {
