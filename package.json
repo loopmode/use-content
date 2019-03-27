@@ -1,0 +1,27 @@
+{
+  "name": "@loopmode/use-content",
+  "description": "React hook for displaying local or external string-based content",
+  "version": "1.0.0",
+  "main": "main/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib --copy-files",
+    "lint": "eslint src",
+    "docs": "esdoc"
+  },
+  "devDependencies": {
+    "@loopmode/babel7-base": "^1.1.0",
+    "react": "^16.8.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "keywords": [
+      "react",
+      "effect",
+      "hook",
+      "fetch",
+      "content",
+      "loader"
+  ]
+}
