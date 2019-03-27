@@ -1,12 +1,13 @@
 {
   "name": "@loopmode/use-content",
   "description": "React hook for displaying local or external string-based content",
-  "version": "1.0.0",
-  "main": "main/index.js",
+  "version": "1.0.1",
+  "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir lib --copy-files",
     "lint": "eslint src",
+    "clean": "rm -rf ./lib/*",
     "docs": "esdoc"
   },
   "devDependencies": {
